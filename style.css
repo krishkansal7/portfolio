@@ -292,6 +292,29 @@ button:hover{
     padding: 5px;
 }
 
+.contact-me form .btn{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contact-me form .btn .btn-size{
+    color: white;
+    text-decoration: none;
+   
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 50px;
+    transform: 0.4s;
+    width: 20%;
+}
+
+.contact-me form .btn .btn-size:hover{
+    background-color: rgb(211, 68, 33);
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
 
 footer{
     position: relative;
